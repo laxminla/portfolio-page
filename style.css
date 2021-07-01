@@ -1,0 +1,11 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+body {background-color: #ffffffef;}
+header {padding: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: #ff6347; color: white;}
+header h1 {display: inline-block; font-size: 50px;}
+header nav {padding-top: 20px; margin-right: 20px; float: right; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; }
+header nav ul {list-style-type: none;}
+header nav ul li {display: inline-block; margin-left: 25px;}
+p {font-size: 16px;}
+.mountain {height: 800px; width: 100%; margin-bottom: 25px; background-image: url("http://3.bp.blogspot.com/-__GcHF5JxTo/UCk5Z2ebrqI/AAAAAAAAEkA/qGy8CtdwADE/s1600/Mount+Everest+Nepal+15.jpg"); background-size: cover; background-position:center;}
+footer {padding:30px; clear: both; font-family: cursive; text-align: center; font-size: 25px; display: inline-block;}
+footer {font-size: 25px;}
