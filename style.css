@@ -52,11 +52,14 @@ aside {
     height: 100%;
     border-right: 3px; solid #ff6347;
 }
-#Home,#AboutMe,#ContactMe,#Work { display: flex;
+#Home,#AboutMe,#MyProjects,#ContactMe,#Work { display: flex;
     font: 200px;
 }
 .flexhead {
     flex: 2;
+}
+.flexbodycontainer {
+    flex: 5;
 }
 .flexbody {
     flex: 5;
