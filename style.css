@@ -10,7 +10,7 @@ body {
 header {
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: royalblue;
+    background-color: #0c85e9;
     color: white;
 }
 header h1 {
@@ -62,7 +62,7 @@ main {
     flex-direction: row;
 }
 .container {
-    background-color: rgb(248, 190, 184);
+    background-color: rgb(243, 165, 157);
 }
 aside {
     width: 200px;
@@ -73,7 +73,7 @@ aside {
 #AboutMe,#MyProjects,#ContactMe,#Work { 
     display: flex;
     font: 250px;
-    line-height: 1.3;
+    line-height: 1.3
     border: 3px solid rgb(18, 3, 77);
   
 }
@@ -91,16 +91,19 @@ aside {
 .workHead {
     flex: 1;
     text-align: center;
+    margin-top: 80px;
     font-size: 200%;
+    border-right: 5px solid green;
     text-decoration: underline;
     text-shadow: 2px 2px #0000ff;
      
 }
 
 .flexbody {
-    flex: 5;
+    flex: 6;
     display: flex;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
     
 }
 
@@ -109,11 +112,12 @@ p {
     margin: 15px 0;
 }
 .section-wrapper {
-    padding: 0;
+    padding: 5px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    line-height: 2.3;
 
 }
 .section-wrapper ul {
@@ -122,17 +126,20 @@ p {
 .flexbodycontainer {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color:  #7cc7f391;
     margin-left: 130px;
+    padding: auto;
 }
 card {
-    border: solid blue;
-    background-color: #b49cae;
+    border: 5px solid blue;
+    background-color: #66c8f5;
     size: 50px;
+    height: 30%;
     width: 40%;
     margin: 10px;
     padding: 10px;
 }
+
 .bottom {
     text-align: center;
     font-weight: bolder;
@@ -140,11 +147,15 @@ card {
     background-color: hsl(318, 66%, 64%);
 }
 .title {
+    font-size: 30px;
     text-align: center;
     font-weight: bolder;
     color: black;
     background-color: hsl(318, 66%, 64%);  
 }
+.title:hover {
+    color: rgb(56, 4, 245);
+  }
 
 .para {
     line-height: 1.2;
@@ -171,6 +182,19 @@ card {
 a:hover {
     color: #fff;
   }
+  .container1 {
+      background-color: #de87d791;
+      border-bottom: solid
+  }
+  .container2 {
+    background-color: #7cc7f391;
+    border-bottom: solid
+}
+
+.container3 {
+    background-color: #f10bcb91;
+    border-bottom: solid
+}
   
 @media screen and (max-width: 768px) {
     header {
